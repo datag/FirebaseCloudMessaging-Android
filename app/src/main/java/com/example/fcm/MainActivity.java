@@ -25,6 +25,8 @@ import java.util.Scanner;
 import static com.example.fcm.R.id.txt;
 
 public class MainActivity extends AppCompatActivity {
+	// NOTE: Pushing messages to FCM from within the app just for demo/testing purpose.
+	//       NEVER distribute your server key with your client app.
 	private static final String AUTH_KEY = "key=YOUR_SERVER_KEY";
 	private TextView mTextView;
 
